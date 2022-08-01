@@ -29,7 +29,7 @@ function TodoItem({ todo }: TodoItemProps) {
         {todo.text}
       </span>
       <span className="remove" onClick={onRemove}>
-        (X)
+        delete this
       </span>
     </li>
   );
