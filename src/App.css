@@ -1,0 +1,56 @@
+body{
+  background-color: #E8EAF6;
+}
+body > div {
+  position:absolute;
+  top:50%;
+  left:50%;
+  padding:100px 50px;
+  transform:translate(-50%,-50%);
+  box-shadow: 0px 1px 4px #0000001F;
+  box-sizing:border-box;
+  font-family:'Lucida Casual', 'Comic Sans MS';
+  background: #F1F5F8 0% 0% no-repeat padding-box;
+  border-radius:6px;
+  
+}
+
+
+input[type=text]{
+  border:none;
+  display:block;
+  margin-bottom:25px;
+  padding:10px;
+  font-size:18px;
+  font-family:'Lucida Casual', 'Comic Sans MS';
+  background: #F1F5F8 0% 0% no-repeat padding-box;
+}
+
+input[type=password]{
+  border:none;
+  display:block;
+  margin-bottom:25px;
+  padding:10px;
+  font-size:18px;
+  font-family:'Lucida Casual', 'Comic Sans MS';
+  background: #F1F5F8 0% 0% no-repeat padding-box;
+}
+
+
+#input{
+  border-bottom:solid 1px #1DE9B6;
+  outline:none;
+  opacity:0.8;
+}
+
+#input:focus{
+  border-bottom:solid 2px #1DE9B6;
+  opacity:1;
+  color:#6A1B9A;
+}
+
+label{
+  font-size:14px;
+  opacity:0.6;
+  
+}
